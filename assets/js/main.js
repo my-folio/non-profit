@@ -452,4 +452,5 @@ $.scrollUp({
 new WOW().init();
 
 
+
 })(jQuery);

@@ -441,6 +441,7 @@
 .details_meta_button {
   & .g_btn {
     width: 100%;
+    // margin: auto;
 
     @media #{$lg} {
       width: auto;
