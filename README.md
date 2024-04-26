@@ -1,2 +1,0 @@
-# non-profit
-Horace Tucker 
