@@ -22411,8 +22411,9 @@ input[type=number] {
   visibility: visible;
   pointer-events: none;
 }
+/* water */
 .blog-section-three .single-blog:hover .blog-img .brush-bg::after {
-  content: url("https://charitfix.vercel.app/assets/images/gallery/brush-bg-two.png");
+  content: url("/assets/images/gallery/brush-bg-two.png");
   display: block;
   width: 100%;
   height: 100%;
@@ -22422,19 +22423,21 @@ input[type=number] {
   z-index: 1;
 }
 .blog-section-three .single-blog:hover .blog-img .brush-bg::before {
-  content: "30 Jun 2023";
+  content: "Project info";
   color: var(--primary);
 }
+
 .blog-section-three .single-blog .blog-img {
   position: relative;
 }
+/* water overide */
 .blog-section-three .single-blog .blog-img .brush-bg {
   position: absolute;
   top: 20px;
   left: 20px;
 }
 .blog-section-three .single-blog .blog-img .brush-bg::before {
-  content: "30 Jun 2023";
+  content: "Project info";
   color: var(--primary-title);
   font-size: 14px;
   font-weight: 700;
@@ -23125,6 +23128,27 @@ input[type=number] {
   left: 20px;
 }
 .single-blog .blog-img .brush-bg::before {
+  content: "Project info";
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 700;
+  padding: 7px 14px;
+  position: absolute;
+  left: 24px;
+  top: 4px;
+  overflow: visible;
+  width: 72px;
+  text-align: center;
+  z-index: 2;
+}
+
+/* Education override */
+.single-blog .blog-img .brush-bg-edu {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.single-blog .blog-img .brush-bg-edu::before {
   content: "30 jun 2023";
   color: var(--white);
   font-size: 14px;
